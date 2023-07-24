@@ -1,0 +1,382 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(image/bg3.jpeg);
+  height: 1450px;
+  /* height: 100vh; */
+  
+}
+
+form {
+  margin: auto;
+  margin-top: -200px;
+  box-shadow: 0px 0px 10px rgba(227, 227, 227, 0.5);
+  
+}
+.form{
+    position: relative;
+    width: 650px;
+    height: 1100px;
+    /* background-image: url(image/bg7.jpeg); */
+    background-color: black;
+    box-shadow: inset 0px 0px 20px rgba(227, 227, 227,1);
+}
+.imag{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+   box-shadow:inset 0px 0px 50px rgba(227, 227, 227,1);
+  
+    z-index:9 ;
+}
+/* .imag:hover{
+    
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+    
+
+
+} */
+.icfa{
+    position: absolute;
+    width: 15%;
+    top: 55%;
+    left:60%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.icfa:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgb(171, 150, 12);
+
+   }
+.icin{
+    position: absolute;
+    width: 15%;
+    top: 55%;
+    left:30%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.icin:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgba(227, 227, 227,1);
+
+   }
+/* .icwa{
+    position: absolute;
+    width: 100px;
+    top:55%;
+    left:270px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.icwa:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgba(227, 227, 227,1);
+
+   } */
+.icti{
+    position: absolute;
+    width: 15%;
+    top:55%;
+    left:6%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.icti:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgba(227, 227, 227,1);
+
+   }
+.icth{
+    position: absolute;
+    width: 15%;
+    top:55%;
+    left:80%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.icth:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgba(227, 227, 227,1);
+
+   }
+.info{
+    position: absolute;
+    left: 15px;
+    top: 70%;
+    color: rgb(205, 221, 235);
+    background-color: rgba(159, 180, 180, 0.123);
+    z-index:3;
+}
+.abb{
+    position: absolute;
+    width: 30%;
+    top: 2%;
+}
+.abb:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgb(121, 119, 110);
+    
+}
+.sch{
+    position: absolute;
+    top: 2%;
+    left: 37%;
+    width: 30%;
+}
+.sch:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgb(121, 119, 110);
+    
+}
+
+
+.chint{
+    position: absolute;
+    top: 1%;
+    left: 70%;
+    width: 30%;
+    
+}
+.chint:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgb(121, 119, 110);
+    
+}
+.df{
+    position: absolute;
+    width: 30%;
+    top:20%;
+    margin-left: 5%;
+}
+.df:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgb(121, 119, 110);
+    
+}
+.siba{
+    position: absolute;
+    width: 30%;
+    top:20%;
+    left: 70%;
+}
+.siba:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgb(121, 119, 110);
+    
+}
+.hyn{
+    position: absolute;
+    width: 30%;
+    top:37.5%;
+    left: 68%;
+}
+.hyn:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgb(121, 119, 110);
+    
+}
+
+.emas{
+    position: absolute;
+    width: 30%;
+    top:40%;
+    left: 5%;
+}
+.emas:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 50px rgb(121, 119, 110);
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(image/bg3.jpeg);
+        height: 2000px;
+        width: 100vw;
+      }
+      
+      form {
+        margin:0, auto, auto,auto;
+        margin-top: -800px;
+        box-shadow: 0px 0px 10px rgba(227, 227, 227, 0.5);
+        /* width: 90%; */
+        max-width: 600px;
+        height: 100vh;
+        max-height: 1200px;
+      }
+      
+        .form{
+            
+          position: relative;
+          /* top: 100px; */
+          width: 90%;
+          height: 2000px;
+          background-color: black;
+          
+          box-shadow: inset 0px 0px 5px rgba(227, 227, 227,1);
+          /* background: url(image/bg6.jpeg); */
+          /* z-index: ; */
+      }
+      
+      .imag{
+          position: absolute;
+          top: 24%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 50%;
+          width: 70%;
+          max-width: 250px;
+          height: auto;
+          max-height: 250px;
+          margin: auto;
+          box-shadow: 0px 0px 30px rgba(227, 227, 227,1);
+          z-index:9;
+      }
+     
+      .icfa{
+          position: absolute;
+          width: 24%;
+          top: 39%;
+          left: 14%;
+          border-radius: 50%;
+          z-index: 1;
+      }
+      .icfa:hover {
+          transform: scale(1.5);
+          transition-duration: 0.5s;
+          box-shadow: 0px 0px 50px rgb(171, 150, 12);
+      
+         }
+      .icin{
+          position: absolute;
+          width: 24%;
+          top: 39%;
+          left: 63%;
+          border-radius: 50%;
+          z-index: 1;
+      }
+      .icin:hover {
+          transform: scale(1.5);
+          transition-duration: 0.5s;
+          box-shadow: 0px 0px 50px rgba(227, 227, 227,1);
+      
+         }
+      .icti{
+          position: absolute;
+          width: 24%;
+          top: 34%;
+          left: 25%;
+          transform: translate(-50%, -50%);
+          border-radius: 50%;
+          z-index: 1;
+      }
+      .icti:hover {
+          transform: scale(1.5);
+          transition-duration: 0.5s;
+          box-shadow: 0px 0px 50px rgba(227, 227, 227,1);
+      
+         }
+      .icth{
+          position: absolute;
+          width: 24%;
+          top: 34%;
+          left: 75%;
+          transform: translate(-50%, -50%);
+          border-radius: 50%;
+          z-index: 1;
+      }
+      .icth:hover {
+          transform: scale(1.5);
+          transition-duration: 0.5s;
+          box-shadow: 0px 0px 50px rgba(227, 227, 227,1);
+      
+         }
+      .info{
+          position: absolute;
+          left: 5%;
+          top: 50%;
+          color: rgb(205, 221, 235);
+          background-color: rgba(159, 180, 180, 0.123);
+          z-index:3;
+          width: 90%;
+          padding: 20px;
+          text-align: center;
+      }
+
+
+    .abb{
+        position: absolute;
+        width: 30%;
+        top: 2%;
+    }
+    .sch{
+        position: absolute;
+        top: 2%;
+        left: 37%;
+        width: 30%;
+    }
+    .chint{
+        position: absolute;
+        top: 1%;
+        left: 70%;
+        width: 30%;
+        
+    }
+    .df{
+        position: absolute;
+        width: 30%;
+        top:8%;
+        margin-left: 5%;
+    }
+    .siba{
+        position: absolute;
+        width: 30%;
+        top:8%;
+        left: 70%;
+    }
+    .hyn{
+        position: absolute;
+        width: 30%;
+        top:7.5%;
+        left: 35%;
+    }
+    .emas{
+        position: absolute;
+        width: 30%;
+        top:13%;
+        left: 35%;
+    }
+      
+    }
+
